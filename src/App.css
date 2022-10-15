@@ -2,9 +2,8 @@ body {
   font-family: 'DM Serif Display', serif;
   margin: 0;
   height: 100vh;
-  /* display: flex;
-  flex-direction: column;
-  text-align: left; */
+  /* max-width: 500px; */
+  margin: 0 auto;
 }
 
   .flexbox-container {
@@ -26,6 +25,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: -120px;
   }
 
   .App-header {
@@ -40,15 +40,14 @@ body {
 
   a {
     color: black;
-    font-size: 20px;
+    font-size: 15px;
   }
 
 .mainfont1 {
   margin: 0px;
   font-size: 30px;
-  
- 
 }
+
 .mainfont {
   font-size: 60px;
   margin: 0;
@@ -59,8 +58,20 @@ p {
   margin: 0px;
 }
 
+
+.s {
+  color: #f9b144;
+}
+.a {
+  color: #f3a633;
+  color: #ec93b0;
+}
+
+.h {
+  color: #fc6c85;
+}
 #mainphoto {
-  border-radius: 70%;
+  border-radius: 30%;
 }
 
 
@@ -74,7 +85,7 @@ p {
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .flexbox-container {
     display: flex;
     justify-content: center;
@@ -93,5 +104,20 @@ p {
     order: 2;
   }
 
+  #mainphoto {
+    border-radius: 30%;
+    height: 400px;
+    width: 250px;
+  }
+
+  .mainfont1 {
+    margin: 0px;
+    font-size: 20px;
+  }
   
+  .mainfont {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
 }
