@@ -5,6 +5,7 @@ import Home from './pages/Home'
 // import Resume from './pages/Resume'
 // import Projects from './pages/Projects'
 import NavBar from './components/NavBar';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <NavBar/>
     <Routes>
     <Route path='/' element={<Home />} />
+    <Route path='/contact' element={<Contact />} />
     </Routes>
     </>
   );
