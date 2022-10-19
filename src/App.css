@@ -62,9 +62,15 @@ body {
     order: 2;
     margin-bottom: 150px;
     padding-right: 15px;
-    padding-left: 10px;
+    padding-left: 15px;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
   
+  }
+
+  .resumemobile {
+    max-width: 80%;
   }
 
   .flexbox-item-6 {
@@ -166,7 +172,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    margin: auto;
     height: 650px;
   }
 
@@ -229,6 +235,10 @@ p {
     /* font-size: 50px; */
   }
 
+  .resumemobile {
+    font-size: 14px;
+  }
+
   .App-header {
     background-color: #ffffff;
     display: flex;
@@ -238,5 +248,32 @@ p {
     color: black;
     text-decoration: none;
     margin-right: 10px;
+  }
+
+
+  .flexbox-item-5 {
+    order: 2;
+    margin-bottom: 150px;
+    padding-right: 15px;
+    padding-left: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contactfont {
+    text-align: center;
+    
+  }
+
+  .contactmobile {
+    font-size: 14px;
+  }
+
+  .resumephoto {
+    width: 500px;
+    height: 200px;
+  }
+  .resumefont {
+    font-size: 40px;
   }
 }
