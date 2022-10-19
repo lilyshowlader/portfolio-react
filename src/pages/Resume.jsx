@@ -2,9 +2,8 @@ function Resume() {
   return (
     <>
     <div className="resume-container">
-      <img src="https://i.imgur.com/s692Y3L.png" className="resume" alt=""/>
-      <img src="https://i.imgur.com/oAAcbuU.png" className="resume" alt=""/>
-      <p>click here to download my resume</p>
+      <img src="https://i.imgur.com/XN2dzvw.png" className="resumephoto" alt=""/>
+      <p className='resumefont'>click <span className="s">h</span><span className="h">e</span><span className="a">r</span><span className="s">e</span> to</p> <p className='resumefont'>download my resume. </p>
     </div>
     </>
   )
