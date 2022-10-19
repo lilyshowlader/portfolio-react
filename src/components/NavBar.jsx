@@ -8,6 +8,7 @@ function NavBar() {
           <Link to='/Projects'> projects </Link>
           <Link to='/Resume'> resume </Link>
           <Link to='/Contact'> contact </Link> 
+          <Link to='/AboutMe'> about me </Link> 
       </header>
   )
 }

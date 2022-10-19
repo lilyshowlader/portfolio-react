@@ -3,7 +3,7 @@ function Contact() {
     <>
     <div className="flexbox-container2">
       <div className="flexbox-item-3">
-        <p className="contactfont"><span className="s">s</span><span className="h">a</span><span className="a">y</span> <span className="s">h</span><span className="h">e</span><span className="a">l</span><span className="h">l</span><span className="a">o</span></p>
+        <p className="contactfont"><span className="s">s</span><span className="h">a</span><span className="a">y</span> <span className="s">h</span><span className="h">e</span><span className="a">l</span><span className="s">l</span><span className="h">o</span></p>
         <p> lilyshowlader@gmail.com</p>
         <p> linkedin.com/lilyshantahowlader </p>
         <p> https://github.com/lilyshowlader</p>
