@@ -81,6 +81,10 @@ body {
     max-width: 80%;
   }
 
+  .resumemobile2 {
+    max-width: 80%;
+  }
+
   .flexbox-item-6 {
     order: 1;
     margin-top: -170px;
@@ -339,6 +343,7 @@ h3 {
   .resumemobile2 {
     margin-bottom: 30px;
     font-size: 14px;
+    max-width: 100%;
   }
 
   .mainfont2{
