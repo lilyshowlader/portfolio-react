@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ProjectPreview = (props) => {
   return ( 
     <div className="project-container">
@@ -7,7 +9,7 @@ const ProjectPreview = (props) => {
         alt={props.title}
         className="projectphoto"></img>
 					<button>
-              click me :)
+          <Link className="buttonlink" to="/projectDetails">click me :)</Link>
           </button>
     </div>
 

@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import AboutMe from './pages/AboutMe';
+import ProjectDetails from './components/ProjectDetails';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <Route path='/resume' element={<Resume />} />
     <Route path='/aboutme' element={<AboutMe />} />
     <Route path='/projects' element={<Projects />} />
+    <Route path='/projectDetails' element={<ProjectDetails />} />
     </Routes>
     </div>
     </>

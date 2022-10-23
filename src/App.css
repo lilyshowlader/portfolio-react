@@ -184,6 +184,12 @@ button {
   background-color: rgb(41, 167, 108);
   color: white;
   border: none;
+  text-decoration: none;
+}
+
+.buttonlink {
+  color: white;
+  text-decoration: none;
 }
 
 h3 {
