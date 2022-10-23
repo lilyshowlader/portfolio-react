@@ -148,7 +148,12 @@ p {
 .h {
   color: #fc6c85;
 }
+
 #mainphoto {
+  border-radius: 30%;
+}
+
+#profilephoto {
   border-radius: 30%;
 }
 
@@ -190,7 +195,7 @@ h3 {
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
 
   .mobile {
     display: block;
@@ -269,6 +274,15 @@ h3 {
     width: 300px;
     margin-bottom: 25px;
   }
+
+
+  #profilephoto {
+    border-radius: 30%;
+    height: 480px;
+    width: 300px;
+    margin-bottom: 25px;
+  }
+
 
   .mainfont1 {
     margin: 0px;

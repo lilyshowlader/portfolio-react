@@ -3,7 +3,7 @@ function Home() {
     <>
     <div className="flexbox-container">
     <div className="flexbox-item-1">
-    <img src="https://i.imgur.com/TZT3k4g.png" width="375" height="600" id="mainphoto" alt=""/>
+    <img src="https://i.imgur.com/TZT3k4g.png" width="375" height="600" id="profilephoto" alt=""/>
     </div>  
 
     <div className="flexbox-item-2">
