@@ -1,13 +1,13 @@
 export let projects = [
 {
-  title: "grateful",
+  title: "grateful.",
   description: "take a moment to step back and reflect." ,
   image: "https://i.imgur.com/sfpzhTN.png" ,
   repositoryLink: "https://github.com/lilyshowlader/grateful",
   deploymentLink: "https://grateful.fly.dev/",
 },
 {
-  title: "connectfour",
+  title: "connectfour*",
   description: "classic is always fun." ,
   image: "https://i.imgur.com/1HhuvTt.png",
   repositoryLink: "https://github.com/lilyshowlader/connectfour",
