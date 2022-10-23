@@ -1,6 +1,14 @@
-function Projects() {
+import ProjectsLists from "../components/ProjectsList";
+import { projects } from "../data/projects";
+
+function Projects () {
+
   return (
-      <h1>Projects</h1>
+    <>
+    <div className="projectcontainer">
+      <ProjectsLists projects={projects} />
+    </div>
+    </>
   )
 }
 

@@ -29,6 +29,14 @@ body {
     margin-top: 85px;
     height: 650px;
   }
+
+  .project-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   
   .flexbox-item-1 {
     order: 1;
@@ -153,15 +161,32 @@ p {
   text-align: center;
 }
 
+.projectphoto {
+  height: 300px;
+}
+
+.projectmainfont {
+  font-size: 60px;
+}
+
+button {
+  border-radius: 50px;
+  padding: 10px;
+  background-color: rgb(41, 167, 108);
+  color: white;
+  border: none;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
 
 
 
 
 
 
-
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
 
   .mobile {
     display: block;
@@ -170,6 +195,7 @@ p {
   }
   .flexbox-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
@@ -184,34 +210,60 @@ p {
     height: 650px;
   }
   
+  .flexbox-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 650px;
+  }
+
+  .flexbox-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 650px;
+  }
+
   .flexbox-item-1 {
     order: 1;
-    margin-bottom: 150px;
-    padding-right: 10px;
   }
   
   .flexbox-item-2 {
     order: 2;
+    margin-bottom: -150px;
+    text-align: center;
   }
 
   .flexbox-item-3 {
-    order: 1;
-    margin-bottom: 150px;
-    padding-right: 15px;
+    order: 2;
+    text-align: center;
   }
 
   .flexbox-item-4 {
+    order: 1;
+    margin-top: 230px;
+  }
+
+  .flexbox-item-5 {
     order: 2;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: -170px;
+    text-align: center;
+  }
+
+  .flexbox-item-6 {
+    order: 1;
+    margin-top: 400px;
+    
   }
 
   #mainphoto {
     border-radius: 30%;
     height: 400px;
-    width: 250px;
+    width: 300px;
+    margin-bottom: 25px;
   }
 
   .mainfont1 {
@@ -221,7 +273,7 @@ p {
   
   .mainfont {
     font-size: 40px;
-    margin: 0;
+    margin: 3px;
     padding: 0;
   }
 
@@ -231,9 +283,6 @@ p {
     padding: 0;
   }
   
-  .resumefont {
-    /* font-size: 50px; */
-  }
 
   .resumemobile {
     font-size: 14px;
@@ -273,7 +322,16 @@ p {
     width: 500px;
     height: 200px;
   }
+
   .resumefont {
     font-size: 40px;
+  }
+
+  .projectmainfont {
+    font-size: 40px;
+  }
+
+  .resumemobile {
+    max-width: 100%;
   }
 }
