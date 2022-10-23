@@ -335,6 +335,10 @@ h3 {
     max-width: 100%;
   }
 
+  .mainfont2{
+    margin-bottom: 30px;
+  }
+
   .App-header {
     display: flex;
     justify-content: center;

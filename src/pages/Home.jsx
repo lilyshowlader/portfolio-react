@@ -14,7 +14,7 @@ function Home() {
     <br></br>
     <p>women's health advocate,</p>
     <p>furry friend lover,</p>
-    <p>from queens, new york.</p>
+    <p className='mainfont2'>from queens, new york.</p>
     </div>
 
     </div>
