@@ -333,6 +333,12 @@ h3 {
 
   .resumemobile {
     max-width: 100%;
+    
+  }
+
+  .resumemobile2 {
+    margin-bottom: 30px;
+    font-size: 14px;
   }
 
   .mainfont2{
