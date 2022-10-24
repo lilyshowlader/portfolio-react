@@ -13,5 +13,12 @@ export let projects = [
   repositoryLink: "https://github.com/lilyshowlader/connectfour",
   deploymentLink: "https://lilyshowladerconnectfour.netlify.app/",
  },
+ {
+  title: "tic-tac-toe",
+  description: "gimme three in a row." ,
+  image: "https://i.imgur.com/O2ccPr5.png",
+  repositoryLink: "https://github.com/lilyshowlader/connectfour",
+  deploymentLink: "https://lilyshowladertictactoe.netlify.app/",
+ },
 ]
 
