@@ -1,3 +1,5 @@
+import 'animate.css'
+
 function Home() {
   return (
     <>

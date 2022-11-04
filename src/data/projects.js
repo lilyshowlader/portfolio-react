@@ -20,5 +20,12 @@ export let projects = [
   repositoryLink: "https://github.com/lilyshowlader/connectfour",
   deploymentLink: "https://lilyshowladertictactoe.netlify.app/",
  },
+ {
+  title: "LAMdb",
+  description: "vet records tracking." ,
+  image: "https://i.imgur.com/xDaXltO.png",
+  repositoryLink: "https://github.com/shakestuffup73/lamdb-frontend",
+  deploymentLink: "https://lamdb.netlify.app/",
+ },
 ]
 

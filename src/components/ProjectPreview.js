@@ -22,9 +22,17 @@ const ProjectPreview = (props) => {
     <img src={projects[2].image} alt={props.title}className="projectphoto"></img>
     <a href="https://github.com/lilyshowlader/ttt-weekend" className="buttonlink2"> github </a>
     <a href="https://lilyshowladertictactoe.netlify.app/" className="buttonlink3"> deployed app </a>
-    </div>
+    
 
-   );
+    {/* <p className="projectfont">{projects[3].title}</p>
+    <p>{projects[3].description}</p>
+    <img src={projects[3].image} alt={props.title}className="projectphoto"></img>
+    <div className='button-container'>
+    <a href="https://github.com/shakestuffup73/lamdb-frontend" className="buttonlink2"> github </a>
+    <a href="https://lamdb.netlify.app/" className="buttonlink3"> deployed app </a>
+    </div> */}
+    </div>
+  );
 }
- 
+
 export default ProjectPreview;
