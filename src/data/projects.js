@@ -25,7 +25,7 @@ export let projects = [
   description: "tweet tweet" ,
   image: "https://i.imgur.com/GiV743C.png",
   repositoryLink: "https://github.com/lilyshowlader/finch-collector",
-  deploymentLink: "https://lilyfinchcollector.herokuapp.com/finches/",
+  deploymentLink: "https://lilyfinchcollector.herokuapp.com",
 },
 {
   title: "tic-tac-toe",
