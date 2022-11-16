@@ -21,7 +21,7 @@ export let projects = [
   image: "https://i.imgur.com/xDaXltO.png",
   repositoryLink: "https://github.com/shakestuffup73/lamdb-frontend",
   deploymentLink: "https://lamdb.netlify.app/",
-  tech: "Tech: ReactJS, MongoDB, JWS Auth"
+  tech: "Tech: ReactJS, MongoDB, JWT Auth"
 },
 {
   title: "finch-collector",
