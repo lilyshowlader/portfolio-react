@@ -5,7 +5,7 @@ export let projects = [
   image: "https://i.imgur.com/sfpzhTN.png" ,
   repositoryLink: "https://github.com/lilyshowlader/grateful",
   deploymentLink: "https://grateful.fly.dev/",
-  tech: "Tech: Node.js, Express.js, EJS, CSS, MongoDB, Mongoose"
+  tech: "Tech: Node.js, Express.js, EJS, CSS, MongoDB"
 },
 {
   title: "connectfour*",
