@@ -3,7 +3,17 @@ import { projects } from "../data/projects";
 
 const ProjectPreview = (props) => {
   return ( 
+
+    
     <div className="project-container">
+
+    <p className="projectfont"> {projects[5].title}</p>
+    <p>{projects[5].description}</p>
+    <img src={projects[5].image} alt={props.title}className="projectphoto"></img>
+    <p>{projects[5].tech}</p>
+    <a href="https://github.com/lilyshowlader/react-practice-api-calls" className="buttonlink2"> github </a>
+    <a href="https://happypics.netlify.app/" className="buttonlink3"> deployed app </a>
+
     <p className="projectfont"> {projects[0].title}</p>
     <p>{projects[0].description}</p>
     <img src={projects[0].image} alt={props.title}className="projectphoto"></img>

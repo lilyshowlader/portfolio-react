@@ -39,5 +39,13 @@ export let projects = [
   deploymentLink: "https://lilyshowladertictactoe.netlify.app/",
   tech: "Tech: Javascript, CSS, HTML"
 },
+{
+  title: "happy pics",
+  description: "api call practice" ,
+  image: "https://i.imgur.com/5735UZF.png",
+  repositoryLink: "https://github.com/lilyshowlader/react-practice-api-calls",
+  deploymentLink: "https://happypics.netlify.app/",
+  tech: "Tech: React.js, JSX, CSS"
+},
 ]
 
