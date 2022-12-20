@@ -9,7 +9,7 @@ const ProjectPreview = (props) => {
 
     <p className="projectfont"> {projects[5].title}</p>
     <p>{projects[5].description}</p>
-    <img src={projects[5].image} alt={props.title}className="projectphoto"></img>
+    <img src={projects[5].image} alt={props.title}className="projectphototwo"></img>
     <p>{projects[5].tech}</p>
     <a href="https://github.com/lilyshowlader/react-practice-api-calls" className="buttonlink2"> github </a>
     <a href="https://happypics.netlify.app/" className="buttonlink3"> deployed app </a>
