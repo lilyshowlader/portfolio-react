@@ -6,6 +6,13 @@ const ProjectPreview = (props) => {
 
     
     <div className="project-container">
+    
+    <p className="projectfont"> {projects[6].title}</p>
+    <p>{projects[6].description}</p>
+    <img src={projects[6].image} alt={props.title}className="projectphototwo"></img>
+    <p>{projects[6].tech}</p>
+    <a href="https://github.com/lilyshowlader/the-daily-sunshine" className="buttonlink2"> github </a>
+    <a href="https://thedailysunshine.netlify.app/" className="buttonlink3"> deployed app </a>
 
     <p className="projectfont"> {projects[5].title}</p>
     <p>{projects[5].description}</p>
