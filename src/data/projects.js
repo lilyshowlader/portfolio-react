@@ -5,7 +5,7 @@ export let projects = [
   image: "https://i.imgur.com/sfpzhTN.png" ,
   repositoryLink: "https://github.com/lilyshowlader/grateful",
   deploymentLink: "https://grateful.fly.dev/",
-  tech: "Tech: Node.js, Express.js, EJS, CSS, MongoDB, Google OAuth"
+  tech: "Tech: Express.js, EJS, CSS, MongoDB, Google OAuth"
 },
 {
   title: "connectfour*",
@@ -45,7 +45,7 @@ export let projects = [
   image: "https://i.imgur.com/5735UZF.png",
   repositoryLink: "https://github.com/lilyshowlader/react-practice-api-calls",
   deploymentLink: "https://happypics.netlify.app/",
-  tech: "Tech: React.js, JSX, CSS"
+  tech: "Tech: React.js, JSX, CSS, Unsplash API"
 },
 {
   title: "the daily sunshine",
