@@ -7,6 +7,13 @@ const ProjectPreview = (props) => {
     
     <div className="project-container">
     
+    <p className="projectfont"> {projects[7].title}</p>
+    <p>{projects[7].description}</p>
+    <img src={projects[7].image} alt={props.title}className="projectphotothree"></img>
+    <p>{projects[7].tech}</p>
+    <a href="https://github.com/lilyshowlader/mifemiso" className="buttonlink2"> github </a>
+    <a href="https://mifemiso.netlify.app/" className="buttonlink3"> deployed app </a>
+
     <p className="projectfont"> {projects[6].title}</p>
     <p>{projects[6].description}</p>
     <img src={projects[6].image} alt={props.title}className="projectphototwo"></img>

@@ -55,5 +55,13 @@ export let projects = [
   deploymentLink: "https://thedailysunshine.netlify.app/",
   tech: "Tech: React.js, JSX, CSS, OpenWeather API"
 },
+{
+  title: "mifemiso",
+  description: "women's health app" ,
+  image: "https://i.imgur.com/kJhXMuu.png",
+  repositoryLink: "https://github.com/lilyshowlader/mifemiso",
+  deploymentLink: "https://mifemiso.netlify.app/",
+  tech: "Tech: Javascript, React.js, CSS"
+},
 ]
 

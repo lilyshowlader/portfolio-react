@@ -122,6 +122,10 @@ a {
   padding: 0;
 }
 
+.projectphotothree {
+  height: 400px;
+  width: 300px;
+}
 
 
 .contactfont {
@@ -425,6 +429,11 @@ a:hover {
 
   .projectphototwo {
     height: 300px;
+    width: 300px;
+  }
+
+  .projectphotothree {
+    height: 400px;
     width: 300px;
   }
 }
