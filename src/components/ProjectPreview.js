@@ -57,16 +57,6 @@ const ProjectPreview = (props) => {
     <p>{projects[3].tech}</p>
     <a href="https://github.com/lilyshowlader/finch-collector" className="buttonlink2"> github </a>
     <a href="https://lilyfinchcollector.herokuapp.com/finches/" className="buttonlink3"> deployed app </a>
-
-
-    <p className="projectfont">{projects[4].title}</p>
-    <p>{projects[4].description}</p>
-    <img src={projects[4].image} alt={props.title}className="projectphoto"></img>
-    <p>{projects[4].tech}</p>
-    <a href="https://github.com/lilyshowlader/ttt-weekend" className="buttonlink2"> github </a>
-    <a href="https://lilyshowladertictactoe.netlify.app/" className="buttonlink3"> deployed app </a>
-    
-
     </div>
   );
 }

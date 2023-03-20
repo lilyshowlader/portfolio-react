@@ -4,6 +4,7 @@ body {
   height: 100vh;
   /* max-width: 500px; */
   margin: 0 auto;
+  background-color: #f6ecf0;
 }
 
 .flexbox-container {
@@ -104,6 +105,9 @@ body {
   padding-top: 15px;
   position: sticky;
   top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
   }
 
 a {
@@ -162,6 +166,7 @@ p {
 
 #profilephoto {
   border-radius: 30%;
+  
 }
 
 .resumephoto {
