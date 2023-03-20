@@ -108,6 +108,11 @@ body {
   left: 0;
   width: 100%;
   margin: 0;
+  padding-bottom: 20px;
+  }
+
+a.home {
+    padding-right: 20px;
   }
 
 a {
