@@ -4,7 +4,7 @@ body {
   height: 100vh;
   /* max-width: 500px; */
   margin: 0 auto;
-  background-color: #f6ecf0;
+  background-color: #faf1f5;
 }
 
 .flexbox-container {
@@ -112,7 +112,7 @@ body {
   }
 
 a.home {
-    padding-right: 20px;
+    padding-right: 5px;
   }
 
 a {
