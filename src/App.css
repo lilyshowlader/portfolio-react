@@ -132,10 +132,14 @@ a {
 }
 
 .projectphotothree {
-  height: 400px;
+  height: 430px;
   width: 300px;
 }
 
+.projectphotoeight {
+  height: 400px;
+  width: 300px;
+}
 
 .contactfont {
   font-size: 60px;
@@ -466,6 +470,16 @@ a:hover {
 
   .projectphotothree {
     height: 400px;
+    width: 300px;
+  }
+
+  .projectphotoeight {
+    height: 430px;
+    width: 300px;
+  }
+
+  .projectphotosix {
+    height: 180px;
     width: 300px;
   }
 }

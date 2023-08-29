@@ -17,7 +17,7 @@ export let projects = [
   },
   {
     title: "LAMdb",
-    description: "vet records tracking." ,
+    description: "contributor: vet records tracking." ,
     image: "https://i.imgur.com/xDaXltO.png",
     repositoryLink: "https://github.com/shakestuffup73/lamdb-frontend",
     deploymentLink: "https://lamdb.netlify.app/",
@@ -63,6 +63,20 @@ export let projects = [
     deploymentLink: "https://mifemiso.netlify.app/",
     tech: "Tech: Javascript, React.js, CSS, Node"
   },
+  {
+    title: "aya contigo",
+    description: "contributor: women's health app" ,
+    image: "https://i.imgur.com/xpQVRFf.png",
+    tech: "Tech: Javascript, React.js, CSS, Node"
+  },
+  {
+    title: "childhood cancer society",
+    description: "contributor: children's cancer society" ,
+    image: "https://i.imgur.com/NvLo8FB.png",
+    tech: "Tech: Typescript, PostgreSQL, Next.js"
+  },
+
+
   ]
   
   

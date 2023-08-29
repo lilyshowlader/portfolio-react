@@ -7,6 +7,14 @@ const ProjectPreview = (props) => {
     
     <div className="project-container">
     
+    
+    <p className="projectfont"> {projects[8].title}</p>
+    <p>{projects[8].description}</p>
+    <img src={projects[8].image} alt={props.title}className="projectphotoeight"></img>
+    <p>{projects[8].tech}</p>
+    <a href="" className="buttonlink3"> download on app store </a>
+   
+   
     <p className="projectfont"> {projects[7].title}</p>
     <p>{projects[7].description}</p>
     <img src={projects[7].image} alt={props.title}className="projectphotothree"></img>
@@ -21,6 +29,13 @@ const ProjectPreview = (props) => {
     <a href="https://github.com/lilyshowlader/the-daily-sunshine" className="buttonlink2"> github </a>
     <a href="https://thedailysunshine.netlify.app/" className="buttonlink3"> deployed app </a>
 
+
+    <p className="projectfont"> {projects[9].title}</p>
+    <p>{projects[9].description}</p>
+    <img src={projects[9].image} alt={props.title}className="projectphotothree"></img>
+    <p>{projects[9].tech}</p>
+    <a href=" https://github.com/ChildhoodCancerSociety/ANNIverse" className="buttonlink3"> github </a> 
+   
     {/* <p className="projectfont"> {projects[5].title}</p>
     <p>{projects[5].description}</p>
     <img src={projects[5].image} alt={props.title}className="projectphototwo"></img>
@@ -46,7 +61,7 @@ const ProjectPreview = (props) => {
 
     <p className="projectfont">{projects[2].title}</p>
     <p>{projects[2].description}</p>
-    <img src={projects[2].image} alt={props.title}className="projectphoto"></img>
+    <img src={projects[2].image} alt={props.title} className="projectphoto"></img>
     <p>{projects[2].tech}</p>
     <a href="https://github.com/shakestuffup73/lamdb-frontend" className="buttonlink2"> github </a>
     <a href="https://lamdb.netlify.app/" className="buttonlink3"> deployed app </a>
