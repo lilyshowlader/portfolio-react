@@ -12,7 +12,7 @@ const ProjectPreview = (props) => {
     <p>{projects[8].description}</p>
     <img src={projects[8].image} alt={props.title}className="projectphotoeight"></img>
     <p>{projects[8].tech}</p>
-    <a href="" className="buttonlink3"> download on app store </a>
+    <a href="https://github.com/VitalaGlobal" className="buttonlink3"> download on app store </a>
    
    
     <p className="projectfont"> {projects[7].title}</p>
