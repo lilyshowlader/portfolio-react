@@ -22,19 +22,19 @@ const ProjectPreview = (props) => {
     <a href="https://github.com/lilyshowlader/mifemiso" className="buttonlink2"> github </a>
     <a href="https://mifemiso.netlify.app/" className="buttonlink3"> deployed app </a>
 
+    <p className="projectfont">{projects[2].title}</p>
+    <p>{projects[2].description}</p>
+    <img src={projects[2].image} alt={props.title} className="projectphoto"></img>
+    <p>{projects[2].tech}</p>
+    <a href="https://github.com/shakestuffup73/lamdb-frontend" className="buttonlink2"> github </a>
+    <a href="https://lamdb.netlify.app/" className="buttonlink3"> deployed app </a>
+
     <p className="projectfont"> {projects[6].title}</p>
     <p>{projects[6].description}</p>
     <img src={projects[6].image} alt={props.title}className="projectphototwo"></img>
     <p>{projects[6].tech}</p>
     <a href="https://github.com/lilyshowlader/the-daily-sunshine" className="buttonlink2"> github </a>
     <a href="https://thedailysunshine.netlify.app/" className="buttonlink3"> deployed app </a>
-
-
-    <p className="projectfont"> {projects[9].title}</p>
-    <p>{projects[9].description}</p>
-    <img src={projects[9].image} alt={props.title}className="projectphotothree"></img>
-    <p>{projects[9].tech}</p>
-    <a href=" https://github.com/ChildhoodCancerSociety/ANNIverse" className="buttonlink3"> github </a> 
    
     {/* <p className="projectfont"> {projects[5].title}</p>
     <p>{projects[5].description}</p>
@@ -51,6 +51,11 @@ const ProjectPreview = (props) => {
     {/* <a href="https://grateful.fly.dev/" className="buttonlink3"> deployed app </a> */}
   
 
+    <p className="projectfont"> {projects[9].title}</p>
+    <p>{projects[9].description}</p>
+    <img src={projects[9].image} alt={props.title}className="projectphotothree"></img>
+    <p>{projects[9].tech}</p>
+    <a href=" https://github.com/ChildhoodCancerSociety/ANNIverse" className="buttonlink3"> github </a> 
 
     <p className="projectfont">{projects[1].title}</p>
     <p>{projects[1].description}</p>
@@ -59,12 +64,6 @@ const ProjectPreview = (props) => {
     <a href="https://github.com/lilyshowlader/connectfour" className="buttonlink2"> github </a>
     <a href="https://lilyshowladerconnectfour.netlify.app/" className="buttonlink3"> deployed app </a>
 
-    <p className="projectfont">{projects[2].title}</p>
-    <p>{projects[2].description}</p>
-    <img src={projects[2].image} alt={props.title} className="projectphoto"></img>
-    <p>{projects[2].tech}</p>
-    <a href="https://github.com/shakestuffup73/lamdb-frontend" className="buttonlink2"> github </a>
-    <a href="https://lamdb.netlify.app/" className="buttonlink3"> deployed app </a>
   
     {/* <p className="projectfont">{projects[3].title}</p>
     <p>{projects[3].description}</p>
