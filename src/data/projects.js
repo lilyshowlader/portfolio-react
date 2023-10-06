@@ -61,7 +61,7 @@ export let projects = [
     image: "https://i.imgur.com/kJhXMuu.png",
     repositoryLink: "https://github.com/lilyshowlader/mifemiso",
     deploymentLink: "https://mifemiso.netlify.app/",
-    tech: "Tech: Javascript, React.js, CSS, Node"
+    tech: "Tech: React.js, CSS, Node"
   },
   {
     title: "aya contigo",
@@ -75,7 +75,12 @@ export let projects = [
     image: "https://i.imgur.com/NvLo8FB.png",
     tech: "Tech: Typescript, PostgreSQL, Next.js"
   },
-
+  {
+    title: "bc for you",
+    description: "birth control info" ,
+    image: "https://i.imgur.com/rcXQscY.png",
+    tech: "Tech: React, CSS"
+  },
 
   ]
   

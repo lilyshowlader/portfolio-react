@@ -14,7 +14,14 @@ const ProjectPreview = (props) => {
     <p>{projects[8].tech}</p>
     <a href="https://apps.apple.com/de/app/aya-contigo-us/id6464393753?l=en" className="buttonlink3"> download on app store </a>
    
-   
+    <p className="projectfont"> {projects[10].title}</p>
+    <p>{projects[10].description}</p>
+    <img src={projects[10].image} alt={props.title}className="projectphotothree"></img>
+    <p>{projects[10].tech}</p>
+    <a href="https://github.com/lilyshowlader/bcforyou" className="buttonlink2"> github </a>
+    <a href="https://bcforyou.netlify.app/" className="buttonlink3"> deployed app </a>
+
+    
     <p className="projectfont"> {projects[7].title}</p>
     <p>{projects[7].description}</p>
     <img src={projects[7].image} alt={props.title}className="projectphotothree"></img>
@@ -28,6 +35,8 @@ const ProjectPreview = (props) => {
     <p>{projects[2].tech}</p>
     <a href="https://github.com/shakestuffup73/lamdb-frontend" className="buttonlink2"> github </a>
     <a href="https://lamdb.netlify.app/" className="buttonlink3"> deployed app </a>
+
+ 
 
     <p className="projectfont"> {projects[6].title}</p>
     <p>{projects[6].description}</p>
