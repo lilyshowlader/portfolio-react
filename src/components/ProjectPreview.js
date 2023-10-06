@@ -16,7 +16,7 @@ const ProjectPreview = (props) => {
    
     <p className="projectfont"> {projects[10].title}</p>
     <p>{projects[10].description}</p>
-    <img src={projects[10].image} alt={props.title}className="projectphotothree"></img>
+    <img src={projects[10].image} alt={props.title}className="projectphotonine"></img>
     <p>{projects[10].tech}</p>
     <a href="https://github.com/lilyshowlader/bcforyou" className="buttonlink2"> github </a>
     <a href="https://bcforyou.netlify.app/" className="buttonlink3"> deployed app </a>
