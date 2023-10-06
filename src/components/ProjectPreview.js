@@ -51,11 +51,11 @@ const ProjectPreview = (props) => {
     {/* <a href="https://grateful.fly.dev/" className="buttonlink3"> deployed app </a> */}
   
 
-    <p className="projectfont"> {projects[9].title}</p>
+    {/* <p className="projectfont"> {projects[9].title}</p>
     <p>{projects[9].description}</p>
     <img src={projects[9].image} alt={props.title}className="projectphotothree"></img>
     <p>{projects[9].tech}</p>
-    <a href=" https://github.com/ChildhoodCancerSociety/ANNIverse" className="buttonlink3"> github </a> 
+    <a href=" https://github.com/ChildhoodCancerSociety/ANNIverse" className="buttonlink3"> github </a>  */}
 
     <p className="projectfont">{projects[1].title}</p>
     <p>{projects[1].description}</p>

@@ -49,7 +49,7 @@ export let projects = [
   },
   {
     title: "the daily sunshine",
-    description: "mobile app for current weather " ,
+    description: "app for current weather " ,
     image: "https://i.imgur.com/TPMPGGW.png",
     repositoryLink: "https://github.com/lilyshowlader/the-daily-sunshine",
     deploymentLink: "https://thedailysunshine.netlify.app/",
